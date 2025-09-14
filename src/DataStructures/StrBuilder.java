@@ -7,8 +7,8 @@ public class StrBuilder {
         //SetcharAt() :-
         //deleteCharAt() :-
         //insert() :-
-         StringBuilder stringBuilder = new StringBuilder("hello ");
-        stringBuilder.append(" world");
+         StringBuilder stringBuilder = new StringBuilder("Hello ");
+        stringBuilder.append(" World");
         System.out.println(stringBuilder);
         stringBuilder.setCharAt(0, 'd');// in this single quotes are used
         System.out.println(stringBuilder);

@@ -16,13 +16,13 @@ class B extends C{
         System.out.println("constructor");
     }
     void print1(){
-        System.out.println("hello");
+        System.out.println("Hello");
     }
 
 }
 class C{
     void print2(){
-        System.out.println("world");
+        System.out.println("World");
     }
     void sup(){
         System.out.println("super print");
